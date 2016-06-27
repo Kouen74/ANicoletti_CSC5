@@ -1,8 +1,8 @@
 /* 
- * File:   main.cpp
- * Author: rcc
- *
- * Created on June 27, 2016, 11:19 AM
+ * File:   truthtable.cpp
+ * Author: Andrew Nicoletti
+ * Purpose: To find the truth!
+ * Created on June 27, 2016, 12:28 AM
  */
 
 #include <iostream>
