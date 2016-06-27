@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/templatemain.o
+	${OBJECTDIR}/prob1.o
 
 
 # C Compiler Flags
@@ -56,16 +56,16 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/template.exe
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gaddis_8ed_chapter3_prob1.exe
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/template.exe: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gaddis_8ed_chapter3_prob1.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/template ${OBJECTFILES} ${LDLIBSOPTIONS}
+	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gaddis_8ed_chapter3_prob1 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/templatemain.o: templatemain.cpp 
+${OBJECTDIR}/prob1.o: prob1.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/templatemain.o templatemain.cpp
+	$(COMPILE.cc) -g -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/prob1.o prob1.cpp
 
 # Subprojects
 .build-subprojects:
@@ -73,7 +73,7 @@ ${OBJECTDIR}/templatemain.o: templatemain.cpp
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/template.exe
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/gaddis_8ed_chapter3_prob1.exe
 
 # Subprojects
 .clean-subprojects:
