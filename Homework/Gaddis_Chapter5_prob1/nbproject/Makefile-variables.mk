@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=Cygwin-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/Cygwin-Windows
-CND_ARTIFACT_NAME_Debug=fibonacci_crud
-CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/fibonacci_crud
+CND_ARTIFACT_NAME_Debug=gaddis_chapter5_prob1
+CND_ARTIFACT_PATH_Debug=dist/Debug/Cygwin-Windows/gaddis_chapter5_prob1
 CND_PACKAGE_DIR_Debug=dist/Debug/Cygwin-Windows/package
-CND_PACKAGE_NAME_Debug=fibonaccicrud.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/fibonaccicrud.tar
+CND_PACKAGE_NAME_Debug=gaddischapter5prob1.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/Cygwin-Windows/package/gaddischapter5prob1.tar
 # Release configuration
 CND_PLATFORM_Release=Cygwin-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/Cygwin-Windows
-CND_ARTIFACT_NAME_Release=fibonacci_crud
-CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/fibonacci_crud
+CND_ARTIFACT_NAME_Release=gaddis_chapter5_prob1
+CND_ARTIFACT_PATH_Release=dist/Release/Cygwin-Windows/gaddis_chapter5_prob1
 CND_PACKAGE_DIR_Release=dist/Release/Cygwin-Windows/package
-CND_PACKAGE_NAME_Release=fibonaccicrud.tar
-CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/fibonaccicrud.tar
+CND_PACKAGE_NAME_Release=gaddischapter5prob1.tar
+CND_PACKAGE_PATH_Release=dist/Release/Cygwin-Windows/package/gaddischapter5prob1.tar
 #
 # include compiler specific variables
 #

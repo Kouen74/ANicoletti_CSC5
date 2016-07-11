@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Fibonacci_Crud
+PROJECTNAME=Gaddis_Chapter5_prob1
 
 # Active Configuration
 DEFAULTCONF=Debug
