@@ -1,33 +1,5 @@
-
-/* 
- * File:   U_pirates.cpp
- * Author: Andrew Nicoletti
- * Created on July 18, 2016, 05:50 PM
- * Purpose: 
- */
- 
-#include <iostream>     // System Library
-#include <string>       // String Library
-#include <cstdlib>      // Random numbers
-#include <cctype>       //isdigit
-using namespace std;    // Standard I/O Namespace
-
-// User Libraries 
-
-// Global Constants
-
-// Functions Prototypes 
-
-// Exe begins here
-
-int main(int argc, char** argv) {
-   
-    // Declare Variables
-    string fname,lname,sname="Black Mary";
-    int pickA,dayB;
-    
-    // Input Data
-    cout<<"Hello!, what is your first name?"<<endl;
+START____________________________________________________________________________________________________________________________________________________________
+cout<<"Hello!, what is your first name?"<<endl;
     cin>>fname;
     cout<<fname<<", huh? Not bad I guess. What is your last name?"<<endl;
     cin>>lname;
@@ -59,13 +31,8 @@ int main(int argc, char** argv) {
     cout<<"The XO's coy and sly aura didn't help to ease the captains anger neither."<<endl;
     cout<<"(1)We should make course for the nearest port.\n(2)Suggest we reallocate another ships water supply to our own."<<endl;
     cin>>pickA;
-    while(!isdigit(pickA)){
-        while(pickA<1||pickA>2){
-         cout<<"Please choose between choice 1 or 2"<<endl;
-         cin>>pickA;
-        }}
-    switch(pickA){
-        case '1':{cout<<"\"BAHH!, nearest port ain't not but a den o' theives\"."<<endl;
+CHOICE A_________________________________________________________________________________________________________________________________________________________	
+    (1)case '1':{cout<<"\"BAHH!, nearest port ain't not but a den o' theives\"."<<endl;
         cout<<"The captain exclaimed.\"Den of thieves, or scurvy\""<<endl;
         cout<<"The XO looks at his two hands as if he was weighing them."<<endl;
         cout<<"The captain on the other hand knows the XO is right, he grunts a bit."<<endl;
@@ -94,8 +61,72 @@ int main(int argc, char** argv) {
         cout<<"You think carefully about how you want to spend the rest of your day."<<endl;
         cout<<"(1)Find a place to drink! \n(2)Wander around the city of Juno \n(3)Try your luck at the cards"<<endl;
         cin>>dayB;
-        }
-        case '2':{cout<<"\"That is always an option.\"Suggested, the XO."<<endl;
+CHOICE B_________________________________________________________________________________________________________________________________________________________
+    (1) cout<<"You wander around the city of Juno, having to only been in the city once before."<<endl;
+        cout<<"The sun is setting, luckily you found a place to have a drink."<<endl;
+        cout<<"You step into the bar, dimly lit by stray hanging lanterns, the bar is fairly loud and quite lively."<<endl;
+        cout<<"A bar wench approaches you."<<endl;
+        cout<<"\"What will it be hun?\" Says the bar wench in a very raspy voice."<<endl;
+        cout<<"(Enter what drink you want to order)"<<endl;
+        cin>>drink[string];
+        cout<<"\"A wha? "<<drink<<"?...\" the wench turns and mutters \'foreigners...\' under her breath."<<endl;
+        cout>>"Some time has passed since you went into the bar, nothing fairly out of the ordinary has happened"<<endl;
+        cout<<"except that you are drunk.You walk out of the bar, not entirely sure if you paid your tab"<<endl;
+        cout<<"as you wonder the streets trying to find your way back to your bunk on the ship."<<endl;
+        cout<<"(Press enter to continue)"<<endl;
+        cin.get();
+        cout<<"The moon is full, and the streets have become scarce of any signs of life."<<endl;	       
+        cout<<"While drifting through the town, you think you hear some hollow moans in an alleyway to your right."<<endl;
+	cout<<"What will you do?"<<endl;
+	cout<<"(1)Ivestigate the sound...I think?(2)Nah...ain't nobody got time for that."<<endl;
+	cin>>nightC;
+CHOICE B__________________________________________________________________________________________________________________________________________________________
+     (2)cout<<"You decided it's about proper time to explore the city of Juno."<<endl;
+	cout<<"The city of Juno was founded by a sect of buddhist greeks who seeked religious freedom from the spartan world."<<endl;
+	cout<<"Now, this city has become a hub for black market trade and piracy."<<endl;
+	cout<<"As you wonder around the city, the sun is quickly setting."<<endl;
+	cout<<"A strange looking older woman has called you over."<<endl;
+	cout<<"\"Hello stranger\" says the old woman.\"Interested in having your fortune told?\""<<endl;
+	cout<<"You aren't superstitious in the slightest and know fortune telling is a scam."<<endl;
+	cout<<"As you politely refuse and begin walking away, she calls out to you once more."<<endl;
+	cout<<"Oh c'mon, it wouldn't now would it, "<<fname<<"?"<<endl;
+	cout<<"To your surprise, you stop and glanced back at the woman. The old woman is gazing by with a wry smile."<<endl;
+	cout<<"What do you do?"<<endl;
+	cout<<"(1)...Yeah sure why not? (2)...I better play it safe and walk away."<<endl;
+	cin>>nightF;
+CHOICE B___________________________________________________________________________________________________________________________________________________________
+     (3)cout<<"You earned some pay but there is nothing to buy while at sea, so why not just have some fun with it right?"<<endl;
+	cout<<"You grab most of your earnings and head into town, determined to piss off some local gamblers and take their money."<<endl;
+	cout<<"Being the unscrupulous pirate you are, you do not follow the rules and instead cheat like no other."<<endl;
+	cout<<"Your skills at cheating are nigh unmatched however, so you feel extremely confident in robbing the innocent folk of Juno."<<endl;
+	cout<<"You find the local casino and walk in nonchalantly, looking around and trying to give off a person who is naive about the gambling community."<<endl;
+	cout<<"You take a seat at a table with cards, you introduce yourself and ante up in the next round of cards."<<endl;
+	cout<<"It is a game of chance and as far as you are concern, everyone does not have any of it except for you."<<endl;
+	cout<<"(Press enter to continue)"<<endl;
+	cin.get();
+	cout<<"Some time has pass, and certainly people are looking at you with jealousy,envy and hate."<<endl;
+	cout<<"The atmosphere at the table feels a bit threatening as everyone looks at you with dagger eyes."<<endl;
+	cout<<"Continue Farming?"<<endl;
+	cout<<"(1)Pfft, hell yea.\n(2)I think it's about time I hit the ol' dusty trail..."<<endl;
+CHOICE G__________________________________________________________________________________________________________________________________________________________
+
+
+CHOICE F__________________________________________________________________________________________________________________________________________________________
+
+
+CHOICE C__________________________________________________________________________________________________________________________________________________________
+
+
+
+
+
+
+ 
+
+
+
+CHOICE A__________________________________________________________________________________________________________________________________________________________	
+    (2)case '2':{cout<<"\"That is always an option.\"Suggested, the XO."<<endl;
         cout<<"\"The waters here ain't be too soft that they keel over.\" The captain brushes his wild untamed beard."<<endl;
         cout<<"He nods slightly after a moment.\"'Tis better to see what we can catch fer today.\""<<endl;
         cout<<"The captain glances at the XO and nods, the XO scurries to the bridge and the ship pulls a starboard."<<endl;
@@ -117,19 +148,8 @@ int main(int argc, char** argv) {
         cout<<"\"Probably about the same chance of the boat actually turning out to be a trap...\" Joe speculated."<<endl;
         cout<<"The boarding crew exchanged glances at each other. What will you do?"<<endl;
         cout<<"(1)Investigate further into the lower decks \n(2)Search on the main deck \n(3)Go into the captains quarters"<<endl;};break;
-    }
+	cin>>nightD;
+CHOICE  D__________________________________________________________________________________________________________________________________________________________
+     (1)cout<<"You decide to investigate the lower decks, taking Bob and Joe along with you."<<endl;
+	
     
-        
-      
-      
-        
-        
-    
-    // Process Data
-    
-    // Output Data
-   
-    
-    return 0;
-}
-
