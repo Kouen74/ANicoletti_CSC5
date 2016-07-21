@@ -1,0 +1,47 @@
+CHOICE B_________________________________________________________________________________________________________________________________________________________
+    (1) cout<<"You wander around the city of Juno, having to only been in the city once before."<<endl;
+        cout<<"The sun is setting, luckily you found a place to have a drink."<<endl;
+        cout<<"You step into the bar, dimly lit by stray hanging lanterns, the bar is fairly loud and quite lively."<<endl;
+        cout<<"A bar wench approaches you."<<endl;
+        cout<<"\"What will it be hun?\" Says the bar wench in a very raspy voice."<<endl;
+        cout<<"(Enter what drink you want to order)"<<endl;
+        cin>>drink[string];
+        cout<<"\"A wha? "<<drink<<"?...\" the wench turns and mutters \'foreigners...\' under her breath."<<endl;
+        cout>>"Some time has passed since you went into the bar, nothing fairly out of the ordinary has happened"<<endl;
+        cout<<"except that you are drunk.You walk out of the bar, not entirely sure if you paid your tab"<<endl;
+        cout<<"as you wonder the streets trying to find your way back to your bunk on the ship."<<endl;
+        cout<<"(Press enter to continue)"<<endl;
+        cin.get();
+        cout<<"The moon is full, and the streets have become scarce of any signs of life."<<endl;	       
+        cout<<"While drifting through the town, you think you hear some hollow moans in an alleyway to your right."<<endl;
+	cout<<"What will you do?"<<endl;
+	cout<<"(1)Ivestigate the sound...I think?(2)Nah...ain't nobody got time for that."<<endl;
+	cin>>nightC;
+CHOICE B__________________________________________________________________________________________________________________________________________________________
+     (2)cout<<"You decided it's about proper time to explore the city of Juno."<<endl;
+	cout<<"The city of Juno was founded by a sect of buddhist greeks who seeked religious freedom from the spartan world."<<endl;
+	cout<<"Now, this city has become a hub for black market trade and piracy."<<endl;
+	cout<<"As you wonder around the city, the sun is quickly setting."<<endl;
+	cout<<"A strange looking older woman has called you over."<<endl;
+	cout<<"\"Hello stranger\" says the old woman.\"Interested in having your fortune told?\""<<endl;
+	cout<<"You aren't superstitious in the slightest and know fortune telling is a scam."<<endl;
+	cout<<"As you politely refuse and begin walking away, she calls out to you once more."<<endl;
+	cout<<"Oh c'mon, it wouldn't now would it, "<<fname<<"?"<<endl;
+	cout<<"To your surprise, you stop and glanced back at the woman. The old woman is gazing by with a wry smile."<<endl;
+	cout<<"What do you do?"<<endl;
+	cout<<"(1)...Yeah sure why not? (2)...I better play it safe and walk away."<<endl;
+	cin>>nightF;
+CHOICE B___________________________________________________________________________________________________________________________________________________________
+     (3)cout<<"You earned some pay but there is nothing to buy while at sea, so why not just have some fun with it right?"<<endl;
+	cout<<"You grab most of your earnings and head into town, determined to piss off some local gamblers and take their money."<<endl;
+	cout<<"Being the unscrupulous pirate you are, you do not follow the rules and instead cheat like no other."<<endl;
+	cout<<"Your skills at cheating are nigh unmatched however, so you feel extremely confident in robbing the innocent folk of Juno."<<endl;
+	cout<<"You find the local casino and walk in nonchalantly, looking around and trying to give off a person who is naive about the gambling community."<<endl;
+	cout<<"You take a seat at a table with cards, you introduce yourself and ante up in the next round of cards."<<endl;
+	cout<<"It is a game of chance and as far as you are concern, everyone does not have any of it except for you."<<endl;
+	cout<<"(Press enter to continue)"<<endl;
+	cin.get();
+	cout<<"Some time has pass, and certainly people are looking at you with jealousy,envy and hate."<<endl;
+	cout<<"The atmosphere at the table feels a bit threatening as everyone looks at you with dagger eyes."<<endl;
+	cout<<"Continue Farming?"<<endl;
+	cout<<"(1)Pfft, hell yea.\n(2)I think it's about time I hit the ol' dusty trail..."<<endl;
