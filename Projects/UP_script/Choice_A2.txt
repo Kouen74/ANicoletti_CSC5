@@ -1,0 +1,14 @@
+CHOICE D1________________________________________________________________________________________________________
+	//LOWER DECKS
+	cout<<"You enter the lower decks along with Joe and Bob."<<endl;
+	cout<<"The second deck is clearly the galley, as scraps of "<<endl;
+	cout<<"half eaten food can be seen."<<endl;
+	cout<<"\"Hmm, seems as though the crew just upped and left in the middle of chow.\" said Bob."<<end;
+	cout<<
+
+CHOICE D2________________________________________________________________________________________________________
+	//MAIN DECK
+
+
+CHOICE D3________________________________________________________________________________________________________
+	//CAPTAINS QUARTERS
